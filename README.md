@@ -4,8 +4,6 @@
 
 Fit Food é um site de portfólio totalmente responsivo, para todos os dispositivos, usando HTML, CSS e JavaScript.
 
- <a href="https://sorayacop.github.io/fit-food/"><strong>➥ Ver ao Vivo</strong></a>
-
  </div>
 
 <br />
