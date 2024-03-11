@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fit Food</title>
+
+  <!--custom css link -->
+  <link rel="stylesheet" href="./assets/css/fitfood.css">
+  <link rel="stylesheet" href="./assets/css/media_query.css">
+
+  <!--google font link-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Monoton&family=Rubik:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <!--main container-->
+  <div class="container">
+
+    <!--#HEADER-->
+    <header>
+
+      <nav class="navbar">
+        <div class="navbar-wrapper">
+          <a href="#">
+            <img src="./assets/images/logo.svg" alt="logo" width="110">
+          </a>
+
+          <ul class="navbar-nav">
+            <li>
+              <a href="#home" class="nav-link">Início</a>
+            </li>
+            <li>
+              <a href="#about" class="nav-link">Sobre</a>
+            </li>
+            <li>
+              <a href="#services" class="nav-link">Serviços</a>
+            </li>
+            <li>
+              <a href="#menu" class="nav-link">Nosso Menu</a>
+            </li>
+            <li>
+              <a href="#testimonials" class="nav-link">Clientes</a>
+            </li>
+          </ul>
+
+          <div class="navbar-btn-group">
+            <button class="menu-toggle-btn">
+              <span class="line one"></span>
+              <span class="line two"></span>
+              <span class="line three"></span>
+            </button>
+          </div>
+        </div>
+      </nav>
+
+      <div class="cart-box"></div>
+    </header>
+
+
+    <main>
+
+      <!--#HOME SECTION-->
+      <section class="home" id="home">
+
+        <div class="home-left">
+          <p class="home-subtext">Bem vindos amigos e clientes!</p>
+
+          <h1 class="main-heading">Nós não cozinhamos, nós criamos suas emoções!</h1>
+
+          <p class="home-text">
+            Inclua textos de exmplo aqui. Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+          </p>
+
+          <div class="btn-group">
+            <a href="#menu"><button class="btn btn-primary btn-icon">
+              <img src="./assets/images/menu.svg" alt="menu icon">
+              Nosso Menu
+            </button>
+            </a>
+
+            <a href="#about"><button class="btn btn-secondary btn-icon">
+              <img src="./assets/images/arrow.svg" alt="seta icon">
+              Sobre nós
+            </button>
+            </a>
+          </div>
+        </div>
+
+        <div class="home-right">
+          <img src="./assets/images/food1.png" alt="food image" class="food-img food-1" width="200" loading="lazy">
+          <img src="./assets/images/food2.png" alt="food image" class="food-img food-2" width="200" loading="lazy">
+          <img src="./assets/images/food3.png" alt="food image" class="food-img food-3" width="200" loading="lazy">
+
+          <img src="./assets/images/dialog-1.svg" alt="dialog" class="dialog dialog-1" width="230">
+          <img src="./assets/images/dialog-2.svg" alt="dialog" class="dialog dialog-2" width="230">
+
+          <img src="./assets/images/circle.svg" alt="circle shape" class="shape shape-1" width="25">
+          <img src="./assets/images/circle.svg" alt="circle shape" class="shape shape-2" width="15">
+          <img src="./assets/images/circle.svg" alt="circle shape" class="shape shape-3" width="30">
+          <img src="./assets/images/ring.svg" alt="ring shape" class="shape shape-4" width="60">
+          <img src="./assets/images/ring.svg" alt="ring shape" class="shape shape-5" width="40">
+        </div>
+      </section>
+
+
+      <!--#ABOUT SECTION-->
+      <section class="about" id="about">
+        <div class="about-left">
+          <div class="img-box">
+            <img src="./assets/images/about-image.jpg" alt="foto restaurante" class="about-img" width="250">
+          </div>
+
+          <div class="abs-content-box">
+            <div class="dotted-border">
+              <p class="number-lg">17</p>
+              <p class="text-md">Anos <br> de Experiencia</p>
+            </div>
+          </div>
+
+          <img src="./assets/images/circle.svg" alt="circle shape" class="shape shape-6" width="20">
+          <img src="./assets/images/circle.svg" alt="circle shape" class="shape shape-7" width="30">
+          <img src="./assets/images/ring.svg" alt="ring shape" class="shape shape-8" width="35">
+          <img src="./assets/images/ring.svg" alt="ring shape" class="shape shape-9" width="80">
+
+        </div>
+
+        <div class="about-right">
+          <h2 class="section-title">Estamos fazendo mais do que você espera</h2>
+
+          <p class="section-text">
+            Inclua o texto sobre aqui. ipsam aliquid neque quibusdam dolorum, quia ea numquam assumenda mollitia
+            dolorem
+            impedit. Voluptate at quis exercitationem officia temporibus adipisci quae totam enim dolorum, assumenda.
+            Sapiente
+            soluta nostrum reprehenderit a velit obcaecati facilis vitae magnam tenetur neque vel itaque inventore eaque
+            explicabo
+            commodi maxime! Aliquam quasi, voluptates odio.
+          </p>
+
+          <p class="section-text">
+            Inclua o texto sobre aqui. Cupiditate nesciunt amet facilis numquam, nam adipisci qui voluptate voluptas
+            enim
+            obcaecati veritatis animi nulla, mollitia commodi quaerat ex, autem ea laborum.
+          </p>
+        </div>
+      </section>
+
+
+      <!--#SERVICES SECTION-->
+      <section class="services" id="services">
+        <div class="service-card">
+          <p class="card-number">01</p>
+
+          <h3 class="card-heading">Estamos localizados no centro da cidade</h3>
+
+          <p class="card-text">
+            Inclua seu texto aqui. Porro nemo veniam necessitatibus praesentium eligendi rem temporibus adipisci quo modi numquam.
+          </p>
+        </div>
+
+        <div class="service-card">
+          <p class="card-number">02</p>
+
+          <h3 class="card-heading">Ingredientes frescos de fazendas orgânicas</h3>
+
+          <p class="card-text">
+            Inclua seu texto aqui. Porro nemo veniam necessitatibus praesentium eligendi rem temporibus adipisci quo modi numquam.
+          </p>
+        </div>
+
+        <div class="service-card">
+          <p class="card-number">03</p>
+
+          <h3 class="card-heading">Entrega própria e rápida. 30 min Máximo</h3>
+
+          <p class="card-text">
+            Inclua seu texto aqui. Porro nemo veniam necessitatibus praesentium eligendi rem temporibus adipisci quo modi numquam.
+          </p>
+        </div>
+
+        <div class="service-card">
+          <p class="card-number">04</p>
+
+          <h3 class="card-heading">Chefs profissionais e experientes</h3>
+
+          <p class="card-text">
+            Inclua seu texto aqui. Porro nemo veniam necessitatibus praesentium eligendi rem temporibus adipisci quo modi numquam.
+          </p>
+        </div>
+
+        <div class="service-card">
+          <p class="card-number">05</p>
+
+          <h3 class="card-heading">Os mais altos padrões de serviço</h3>
+
+          <p class="card-text">
+            Inclua seu texto aqui. Porro nemo veniam necessitatibus praesentium eligendi rem temporibus adipisci quo modi numquam.
+          </p>
+        </div>
+      </section>
+
+
+      <!--#PRODUCT SECTION-->
+      <section class="product" id="menu">
+
+        <h2 class="section-title">Pratos mais populares</h2>
+
+        <p class="section-text">
+          Descrição. Consectetur numquam poro nemo veniam
+          eligendi rem adipisci quo modi.
+        </p>
+
+        <div class="products-grid">
+          <a href="#">
+            <div class="product-card">
+              <div class="img-box">
+                <img src="./assets/images/menu1.jpg" alt="imagem do produto" class="product-img" width="200" loading="lazy">
+              </div>
+
+              <div class="product-content">
+
+                <div class="wrapper">
+                  <h3 class="product-name">Parmesão com Frango</h3>
+
+                  <p class="product-price">
+                    <span class="small">R$</span>31
+                  </p>
+                </div>
+                <p class="product-text">
+                  Ingredientes: tomate, queijo, cogumelos, macarrão de arroz, milho, camarão.
+                </p>
+
+                <div class="product-rating">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
+              </div>
+            </div>
+
+          </a>
+
+          <a href="#">
+            <div class="product-card">
+              <div class="img-box">
+                <img src="./assets/images/menu2.jpg" alt="imagem do produto" class="product-img" width="200" loading="lazy">
+              </div>
+
+              <div class="product-content">
+                <div class="wrapper">
+                  <h3 class="product-name">Salada Azeda</h3>
+
+                  <p class="product-price">
+                    <span class="small">R$</span>24
+                  </p>
+                </div>
+
+                <p class="product-text">
+                  Ingredientes: tomate, queijo, cogumelos, macarrão de arroz, milho, camarão.
+                </p>
+
+                <div class="product-rating">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
+              </div>
+            </div>
+          </a>
+
+          <a href="#">
+            <div class="product-card">
+              <div class="img-box">
+                <img src="./assets/images/menu3.jpg" alt="imagem do produto" class="product-img" width="200" loading="lazy">
+
+                <div class="card-badge green">
+                  <ion-icon name="leaf"></ion-icon>
+                  <p>Vegano</p>
+                </div>
+              </div>
+
+              <div class="product-content">
+                <div class="wrapper">
+                  <h3 class="product-name">Só mato </h3>
+
+                  <p class="product-price">
+                    <span class="small">R$</span>19
+                  </p>
+                </div>
+
+                <p class="product-text">
+                  Ingredientes: tomate, queijo, cogumelos, macarrão de arroz, milho, camarão.
+                </p>
+
+                <div class="product-rating">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
+              </div>
+            </div>
+
+          </a>
+
+          <a href="#">
+            <div class="product-card">
+              <div class="img-box">
+                <img src="./assets/images/menu4.jpg" alt="imagem do produto" class="product-img" width="200" loading="lazy">
+
+                <div class="card-badge red">
+                  <ion-icon name="flame"></ion-icon>
+                  <p>Quente</p>
+                </div>
+              </div>
+
+              <div class="product-content">
+                <div class="wrapper">
+                  <h3 class="product-name">Macarrão de Abobora</h3>
+
+                  <p class="product-price">
+                    <span class="small">R$</span>20
+                  </p>
+                </div>
+
+                <p class="product-text">
+                  Ingredientes: tomate, queijo, cogumelos, macarrão de arroz, milho, camarão.
+                </p>
+
+                <div class="product-rating">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
+              </div>
+            </div>
+          </a>
+
+          <a href="#">
+            <div class="product-card">
+              <div class="img-box">
+                <img src="./assets/images/menu5.jpg" alt="imagem do produto" class="product-img" width="200" loading="lazy">
+
+                <div class="card-badge green">
+                  <ion-icon name="leaf"></ion-icon>
+                  <p>Vegano</p>
+                </div>
+              </div>
+
+              <div class="product-content">
+                <div class="wrapper">
+                  <h3 class="product-name">Macarrão com Manjericão</h3>
+
+                  <p class="product-price">
+                    <span class="small">R$</span>16
+                  </p>
+                </div>
+
+                <p class="product-text">
+                  Ingredientes: tomate, queijo, cogumelos, macarrão de arroz, milho, camarão.
+                </p>
+
+                <div class="product-rating">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
+              </div>
+            </div>
+          </a>
+
+          <a href="#">
+            <div class="product-card">
+              <div class="img-box">
+                <img src="./assets/images/menu6.jpg" alt="imagem do produto" class="product-img" width="200" loading="lazy">
+              </div>
+
+              <div class="product-content">
+                <div class="wrapper">
+                  <h3 class="product-name">Morangueira</h3>
+
+                  <p class="product-price">
+                    <span class="small">R$</span>24
+                  </p>
+                </div>
+
+                <p class="product-text">
+                  Ingredientes: morango e creme especial da casa
+                </p>
+
+                <div class="product-rating">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <a href="#"><button class="btn btn-primary btn-icon">
+          <img src="./assets/images/menu.svg" alt="menu icon">
+          Pedir Cardápio Compreto
+        </button>
+       </a>
+      </section>
+
+
+      <!--#TESTIMONIALS SECTION-->
+      <section class="testimonials" id="testimonials">
+        <h2 class="section-title">O que nossos clientes dizem?</h2>
+        <p class="section-text">
+          Texto aqui: poro nemo veniam
+          eligendi rem adipisci quo modi.
+        </p>
+
+        <div class="testimonials-grid">
+          <div class="testimonials-card">
+            <h4 class="card-title">Muito bom</h4>
+
+            <div class="testimonials-rating">
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+            </div>
+
+            <p class="testimonials-text">
+              Depoimento aqui:Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis fugiat totam nobis quas unde excepturi
+              inventore possimus
+              laudantium provident, rem eligendi velit. Aut molestias, ipsa itaque laborum, natus
+              tempora, ut soluta animi ducimus dignissimos deserunt doloribus in reprehenderit rem accusamus! Quibusdam
+              labore.
+            </p>
+
+            <div class="customer-info">
+              <div class="customer-img-box">
+                <img src="./assets/images/testimonials1.jpg" alt="customer image" class="customer-img" width="100" loading="lazy">
+              </div>
+
+              <h5 class="customer-name">Amanda P.</h5>
+            </div>
+          </div>
+
+          <div class="testimonials-card">
+            <h4 class="card-title">Sempre que posso almoço com eles</h4>
+          
+            <div class="testimonials-rating">
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+            </div>
+          
+            <p class="testimonials-text">
+              Depoimento aqui:Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis fugiat totam nobis quas unde excepturi
+              inventore possimus
+              laudantium provident, rem eligendi velit. Aut molestias, ipsa itaque laborum, natus
+              tempora, ut soluta animi ducimus dignissimos deserunt doloribus in reprehenderit rem accusamus! Quibusdam
+              labore
+            </p>
+          
+            <div class="customer-info">
+              <div class="customer-img-box">
+                <img src="./assets/images/testimonials2.jpg" alt="customer image" class="customer-img" width="100" loading="lazy">
+              </div>
+          
+              <h5 class="customer-name">Henrique45</h5>
+            </div>
+          </div>
+        </div>
+
+      </section>
+    </main>
+
+
+    <!--#FOOTER-->
+    <footer>
+      <div class="footer-wrapper">
+        <a href="#">
+          <img src="./assets/images/logo-footer.svg" alt="logo" class="footer-brand" width="130">
+        </a>
+
+        <div class="social-link">
+          <a href="#">
+            <ion-icon name="logo-twitter"></ion-icon>
+          </a>
+          <a href="#">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+          <a href="#">
+            <ion-icon name="logo-facebook"></ion-icon>
+          </a>
+          <a href="#">
+            <ion-icon name="logo-whatsapp"></ion-icon>
+          </a>
+        </div>
+
+        <p class="copyright">&copy; 2024 SorayaCop. Todos os direitos reservados.</p>
+      </div>
+    </footer>
+  </div>
+
+
+  <!--custom js link-->
+  <script src="./assets/js/foodhub.js"></script>
+
+  <!--ionicon link-->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
